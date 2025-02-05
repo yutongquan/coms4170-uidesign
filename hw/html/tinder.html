@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background-color: white;
+            }
+
+            .container {
+                width: 350px;
+                background-color: white;
+                box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+                padding: 20px;
+                
+            }
+    
+            .logo-container img{
+                width: 150px;
+                display: block;
+                margin: auto;
+            }
+    
+            .thin-line {
+                width: 100%;
+                height: 2px;
+                background-color: #f5f5f5;
+                margin-top: 5px;
+                margin-bottom: 15px;
+            }
+
+            .profile-container {
+                background-color: white;
+                border-radius: 10px;
+                overflow: hidden;
+                text-align: left;
+                box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+            }
+            
+            .profile-picture img {
+                width: 100%;
+                display: block;
+            }
+
+            .info-container {
+                padding: 10px;
+            }
+
+            .name-container {
+                display: flex;
+                align-items: center;
+                font-size: 18px;
+                font-weight: bold;
+                margin-top: 3px;
+                margin-left: 10px;
+                color: #454646;
+            }
+
+            .name-container img {
+                width: 18px;
+                margin-left: 3px;
+            }
+
+            .verified-text {
+                font-size: 14px;
+                color: #aaaaaa;
+                margin-top: 8px;
+                margin-left: 10px;
+            }
+
+            .like-container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #b5afaf;
+                color: white;
+                font-size: 15px;
+                font-weight: bold;
+                border-radius: 30px;
+                padding: 8px 20px;
+                margin-top: 15px;
+                width: fit-content;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .heart-icon {
+                width: 25px;
+                height: 25px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-right: 3px;
+            }
+
+            .heart-icon img {
+                width: 18px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="logo-container">
+                <img src="https://coms4170.cs.columbia.edu/2019-spring/assignments/hw2/tinder_images/tinder_logo.png">
+            </div>
+
+            <div class="thin-line"></div>
+
+            <div class="profile-container">
+                <div class="profile-picture">
+                    <img src="https://coms4170.cs.columbia.edu/2019-spring/assignments/hw2/tinder_images/tinder_person.png">
+                </div>
+
+                <div class="info-container">
+                    <div class="name-container">
+                        <span>Sean Rad, 29</span>
+                        <img src="https://coms4170.cs.columbia.edu/2019-spring/assignments/hw2/tinder_images/tinder_verified.png">
+                    </div>
+                    <div class="verified-text">Verified</div>
+                </div>
+            </div>
+
+            <div class="like-container">
+                <div class="heart-icon">
+                    <img src="https://coms4170.cs.columbia.edu/2019-spring/assignments/hw2/tinder_images/heart.png">
+                </div>
+                <span>Like Me On Tinder</span>
+            </div>
+        </div>
+    
+    </body>
+</html>
